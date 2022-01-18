@@ -22,16 +22,18 @@
     </header>
     <main class="main" id="main">
         <article>
-            <h2>Basic Web Form </h2>
+            <h2>Basic HTML Web Form </h2>
+            <img src="images/A1_screenshot.PNG" alt="Form screenshoot">
             <p>This is a  basic form with no JavaScript that I have clients who think they can code their website start with.  I direct them to the Bootstrap website, as a reference, and instruct them that the first state will be their state, but the states must be listed aplphabetically.<a href="project1/">...see form..</a></p>
         </article>
         <article>
-            <h2></h2>
-            <p><a href="project2"></a></p>
+            <h2>Intro PHP Scriptinng</h2>
+            <img src="../images/A2_Ex1_nested-loop.PNG" alt="Nested-loop result">
+            <p>For those familiar with desktop programming, this is an example of learning PHP and emphasizing how to seperate the functionality of the PHP from the display HTML, starting the concept of separating the view from the functionality. Looping, concatenation, and table creation in PHP is the emphasis preparing for extracting and displaying data from databases. In addition this exemplifies to the learner how block level and inline objects interact in the Document Model Object (DOM)<a href="project2">PHP Scripting</a></p>
         </article>
         <article>
-            <h2></h2>
-            <p><a href="project3"></a></p>
+            <h2>Calculator Class</h2>
+            <p>This project introduces the class and how to use a class.  The class is a Calculator that has the functionality of addition, subtraction, multiplication and division using reverse polish notation.  That is, the operator is entered first, then the numbers for the calculation. This requires two files&#58; one file uses and instantiates the class, and the other is the class file with methods to make the calculator work.<a href="project3">Calculator</a></p>
         </article>
         <article>
             <h2></h2>

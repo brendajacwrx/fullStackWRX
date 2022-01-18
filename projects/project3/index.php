@@ -19,7 +19,7 @@
                 <h1 class="text-center border border-dark rounded">CALCULATOR</h1>
                 <?php
                     $calculator = new Calculator();
-                    
+                    echo '$calculator->calc("/", 10, 0)';
                     echo $calculator->calc("/", 10, 0);
                     echo $calculator->calc("*", 10, 2);  
                     echo $calculator->calc("/", 10, 2); 
