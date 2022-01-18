@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Anderson Assignment 9: Date Time Assignment </title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="w-100 border border-info p-2">Add Note</h1>
+        <a href="displayNotes.html">Display Notes</a>
+
+        <div class="pt-2 form-group">
+            <label for="entryDate">Date and Time</label><br>
+            <input placeholder="ENTRY FORMAT: mm/dd/yyyy 00:00 AM  (time optional)" type="datetime-local"
+                class="form-control" id="entryDate" name="entryDate">
+        </div>
+
+        <div id="errorMsg"></div>
+        <div class="pt-2 form-group">
+            <label for="note">Note</label>
+            <textarea style="height: 500px;" placeholder="Enter note" class="w-100  p-1 border border-info form-control"
+                id="note" name="note"></textarea>
+        </div>
+        <input type="button" id="addNote" name="addNote" class="btn btn-primary" value="Add Note">
+
+    </div> <!-- container -->
+</body>
+    <script src="js/Util.js"></script>
+    <script src="js/main.js"></script>
+
+</html> 

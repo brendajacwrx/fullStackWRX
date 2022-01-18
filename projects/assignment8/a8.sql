@@ -1,0 +1,5 @@
+CREATE TABLE a8 (
+  a8_id int UNSIGNED NOT NULL AUTO_INCREMENT,
+  name varchar(255) NOT NULL,
+  PRIMARY KEY (a8_id)
+);
