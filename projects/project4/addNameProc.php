@@ -2,10 +2,6 @@
 
     /*
         Author: Brenda J Anderson
-        Course: CPS276
-        Instructor: Doug Anderews
-        Due Date: October 17, 2020
-
         Class Purpose: 
             To process the form based upon the button pressed on the
             form and the data received.
