@@ -16,12 +16,12 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-        <title>Anderson Assignment 5: File and Directory Assignmnet </title>
+        <title>Project: Files and Directories</title>
     </head>
     <body>
         <div class="container mt-3 ">
             <div>
-                <h1 class="w-100 border border-info p-2">File and Directory Assignment</h1>
+                <h1 class="w-100 border border-info p-2">File and Directory Project</h1>
                 <p>Enter a folder name and the contents of a file. Folder names should contain alphpa numeric characters only.</p>
                 <?php if(isset($mkDirFile->message) ){echo($mkDirFile->message);} ?>
             </div>

@@ -29,23 +29,25 @@
         <article>
             <h2>Intro PHP Scriptinng</h2>
             <img src="../images/A2_Ex1_nested-loop.PNG" alt="Nested-loop result">
-            <p>For those familiar with desktop programming, this is an example of learning PHP and emphasizing how to seperate the functionality of the PHP from the display HTML, starting the concept of separating the view from the functionality. Looping, concatenation, and table creation in PHP is the emphasis preparing for extracting and displaying data from databases. In addition this exemplifies to the learner how block level and inline objects interact in the Document Model Object (DOM)<a href="project2">PHP Scripting</a></p>
+            <p>For those familiar with desktop programming, this is an example of learning PHP and emphasizing how to seperate the functionality of the PHP from the display HTML, starting the concept of separating the view from the functionality. Looping, concatenation, and table creation in PHP is the emphasis preparing for extracting and displaying data from databases. In addition this exemplifies to the learner how block level and inline objects interact in the Document Model Object (DOM)<a href="project2" title="see results">..see form..</a></p>
         </article>
         <article>
             <h2>Calculator Class</h2>
             <img src="../images/calc.PNG" alt="calculator example">
-            <p>This project introduces the class and how to use a class.  The class is a <a href="https://github.com/brendajacwrx/fullStackWRX/blob/main/projects/project3/calculator.php" title="see code">Calculator</a> that has the functionality of addition, subtraction, multiplication and division using reverse polish notation.  That is, the operator is entered first, then the numbers for the calculation. This requires two files&#58; <a href="https://github.com/brendajacwrx/fullStackWRX/blob/main/projects/project3/index.php" title="see code">one file uses and instantiates the class</a>, and the other is the class file with methods to make the calculator work.<a href="project3" title="See Calculator">Calculator</a></p>
+            <p>This project introduces the class and how to use a class.  The class is a <a href="https://github.com/brendajacwrx/fullStackWRX/blob/main/projects/project3/calculator.php" title="see code">Calculator</a> that has the functionality of addition, subtraction, multiplication and division using reverse polish notation.  That is, the operator is entered first, then the numbers for the calculation. This requires two files&#58; <a href="https://github.com/brendajacwrx/fullStackWRX/blob/main/projects/project3/index.php" title="see code">one file uses and instantiates the class</a>, and the other is the class file with methods to make the calculator work.<a href="project3" title="See Calculator">..see calculator..</a></p>
         </article>
         <article>
-            <h2>Using Forms</h2>
+            <h2>Form Content</h2>
             <img src="../images/A4_AddNamesScreenshot.png" alt="Names Forms">
-            <p>This is a project using classes to manipulate the content entered into a form. The first and last name is entered seperated by a space and when &#34;Add Name&#34; is activated the name is added to a list in the textarea alphabetically by last name then first name seperated by a comma.  The &#34;Clear Names&#34; button clears the list from the text area.<a href="project4">Name List</a> One <a href="">class</a> changes the name format, adds the name and clears the name, in essence, determining what to do when the button is clicked.  The other file will contain the forms and buttons.</p>
+            <p>This is a project using classes to manipulate the content entered into a form. The first and last name is entered seperated by a space and when &#34;Add Name&#34; is activated the name is added to a list in the textarea alphabetically by last name then first name seperated by a comma.  The &#34;Clear Names&#34; button clears the list from the text area.<a href="project4" title="see name list">... see list ...</a> One <a href="https://github.com/brendajacwrx/fullStackWRX/blob/main/projects/project4/addNameProc.php" title="see code">class</a> changes the name format, adds the name and clears the name, in essence, determining what to do when the button is clicked.  The other file will contain the <a href="https://github.com/brendajacwrx/fullStackWRX/blob/main/projects/project4/index.php" title="see code">forms and buttons</a>.</p>
         </article>
         <article>
-            <h2></h2>
-            <img src="../images/A4_AddNamesScreenshot.png" alt="calculator example">
-            <p><a href="project5"></a></p>
+            <h2>Files and Directories</h2>
+            <img src="../images/fileDir.PNG" alt="create file and directory">
+            <p>This project is an example of creating files and directories.  The user enters a directory name and some textual content for a file, and upon submission, a directory will be created in the allowable directories, inserting the textual content into a file named “readme.txt” in that directory created.  The path of the file and directory will display upon completion.  Clicking the path, the file will open in the browser window.  Two files are used, one to <a href="https://github.com/brendajacwrx/fullStackWRX/blob/main/projects/project5/index.php" title="see code">display the forms</a>, and a <a href="https://github.com/brendajacwrx/fullStackWRX/blob/main/projects/project5/directory.php" title="see code">class</a> to handle the methods necessary to create the file and directory.  The directory cannot be duplicated, and the directory that can accept new directories must have the proper 777 permissions set already.<a href="project5" title="see forms">...see file and directory form...</a></p>
         </article>
+        
+        
         <article>
             <h2></h2>
             <p><a href="project6"></a></p>

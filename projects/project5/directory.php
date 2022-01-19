@@ -1,9 +1,6 @@
 <?php
     /*
         Author: Brenda J Anderson
-        Course: CPS276
-        Instructor: Doug Anderews
-        Due Date: October 24, 2020
 
         Class Purpose: 
             To create a readme.txt file of user entered content in the specified folder entered by the user
