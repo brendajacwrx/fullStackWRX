@@ -49,8 +49,8 @@
         
         
         <article>
-            <h2></h2>
-            <p><a href="project6"></a></p>
+            <h2>Database Schema</h2>
+            <p>An ERD diagram for a simple shopping cart application.  The main focus is to use information given a work flow and the data information, the proper relationships between the table records are created.  The diagram uses proper notation indicating the relationships among the table and records.  The key concepts demonstrated are one to one relationships, one to many relationships, and  many to many relationships.<a href="project6">...see diagram ...</a></p>
         </article>
         <article>
             <h2></h2>
