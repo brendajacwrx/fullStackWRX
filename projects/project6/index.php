@@ -39,6 +39,10 @@
             grid-row: span 1;
             justify-self: center;
         }
+        .responsive {
+            max-width: 100%;
+            height: auto;
+            }
     </style>
 </head>
 <body>
@@ -86,7 +90,7 @@
                 </div>
                 <div class="tables">
                     <h3>Resulting ERD</h3>
-                    <img src="../../images/database_ER_diagram800w.png" alt="ERD drawing">
+                    <img class="responsive" src="../../images/database_ER_diagram800w.png" alt="ERD drawing">
                     <p>Given the information for this project, this is the relation between the records and tables.</p>
                 </div>
             </div>
