@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;0,900;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header, aside, footer {
+    padding: 1rem;
+}
+
+header {
+    grid-area: header;
+    background-color: #3ab397;
+    font-size: 3rem;
+}
+
+aside {
+    grid-area: aside;
+    background-color: #95d5cf;
+}
+
+main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1em;
+}
+
+article {
+    border: solid 1px #247e9d;
+}
+article:last-child{
+    grid-column: 1 / -1;
+}
+footer {
+    grid-area: footer;
+    background-color: #247e9d;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+    "header"
+    "main"
+    "aside"
+    "footer";
+}
+
+@media screen and (min-width:800px) {
+    .container{
+        display: grid;
+        grid-template-areas: 
+        "header header header header"
+        ". aside main ."
+        "footer footer footer footer";
+    }
+    
+    aside{
+        margin-right: 1em;
+    }
+    main {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    article{
+        justify-self: center;
+        border: none;
+        
+    }
+    article:last-child{
+        grid-column: auto;
+    }
+}
